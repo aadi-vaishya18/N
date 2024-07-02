@@ -1,0 +1,117 @@
+.container {
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 35%;
+    max-width: 500px;  /* Ensures the container doesn't get too wide */
+    height: 85%;
+    margin: auto;
+    padding: 20px;  /* Adds some padding for better spacing */
+}
+
+body {
+    background-image: url("rkc.jpg");
+    background-size: cover;
+    font-family: "Noto Sans Devanagari", system-ui;
+    font-weight: bold;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;  /* Fixes margin and padding reset */
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5em;  /* Uses em for scalable sizing */
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+h2, h3 {
+    font-size: 1.5em;  /* Uses em for scalable sizing */
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#count-el {
+    font-size: 3em;  /* Uses em for scalable sizing */
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#count-ele, #count-eel {
+    font-size: 2em;  /* Uses em for scalable sizing */
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+button {
+    border: 1px solid black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+    font-size: 1.25em;  /* Uses em for scalable sizing */
+    font-weight: bold;
+    width: 150px;
+    height: 150px;
+    margin-top: 25px;
+    border-radius: 50%;
+    background: #206ce7;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .container {
+        width: 80%;  /* Adjusts container width for medium screens */
+    }
+
+    button {
+        width: 120px;
+        height: 120px;
+        font-size: 1em;  /* Adjusts button size for medium screens */
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2, h3 {
+        font-size: 1.25em;
+    }
+
+    #count-el {
+        font-size: 2.5em;
+    }
+
+    #count-ele, #count-eel {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 95%;  /* Adjusts container width for small screens */
+        padding: 10px;
+    }
+
+    button {
+        width: 100px;
+        height: 100px;
+        font-size: 0.875em;  /* Adjusts button size for small screens */
+    }
+
+    h1 {
+        font-size: 1.75em;
+    }
+
+    h2, h3 {
+        font-size: 1em;
+    }
+
+    #count-el {
+        font-size: 2em;
+    }
+
+    #count-ele, #count-eel {
+        font-size: 1.25em;
+    }
+}
